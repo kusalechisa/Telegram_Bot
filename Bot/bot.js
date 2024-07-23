@@ -5,9 +5,9 @@ const bot = new Telegraf(TOKEN);
 const web_link = "https://kusarestaurantbot.netlify.app/";
 
 bot.start((ctx) =>
-  ctx.reply("Welcome to Our Restaurant:", {
+  ctx.reply("Welcome to KETI Restaurant:", {
     reply_markup: {
-      keyboard: [[{ text: "Open Web", web_app: { url: web_link } }]],
+      keyboard: [[{ text: "KETI RESTAURANT", web_app: { url: web_link } }]],
     },
   })
 );
