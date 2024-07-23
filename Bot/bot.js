@@ -1,11 +1,11 @@
 const { Telegraf } = require("telegraf");
-const TOKEN = "5153026043:AAEOA6Jgze21I8PGuZWKJoNMGY1Wzl6S5OI";
+const TOKEN = "7444271355:AAGO5uwQrxJ0JE5AyP-OvjUeNe-UtT4GlKo";
 const bot = new Telegraf(TOKEN);
 
-const web_link = "https://celebrated-torte-184681.netlify.app/";
+const web_link = "https://kusarestaurantbot.netlify.app/";
 
 bot.start((ctx) =>
-  ctx.reply("Welcome :)))))", {
+  ctx.reply("Welcome to Our Restaurant:", {
     reply_markup: {
       keyboard: [[{ text: "web app", web_app: { url: web_link } }]],
     },
