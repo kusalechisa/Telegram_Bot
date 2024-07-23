@@ -7,7 +7,7 @@ const web_link = "https://kusarestaurantbot.netlify.app/";
 bot.start((ctx) =>
   ctx.reply("Welcome to Our Restaurant:", {
     reply_markup: {
-      keyboard: [[{ text: "web app", web_app: { url: web_link } }]],
+      keyboard: [[{ text: "Open Web", web_app: { url: web_link } }]],
     },
   })
 );
