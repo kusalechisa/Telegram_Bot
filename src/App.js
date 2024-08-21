@@ -47,8 +47,8 @@ function App() {
 
   return (
     <>
-      <h1 className="heading">KETI  RESTAURANT </h1>
-      <Cart cartItems={cartItems} onCheckout={onCheckout}/>
+      <h1 className="heading">KETI RESTAURANT </h1>
+      <Cart cartItems={cartItems} onCheckout={onCheckout} />
       <div className="cards__container">
         {foods.map((food) => {
           return (
