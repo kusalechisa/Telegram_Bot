@@ -5,7 +5,7 @@ const bot = new Telegraf(TOKEN);
 const web_link = "https://kusarestaurantbot.netlify.app/";
 
 bot.start((ctx) =>
-  ctx.reply("Welcome to KETI Restaurant:", {
+  ctx.reply("Welcome to KEETII Restaurant:", {
     reply_markup: {
       keyboard: [[{ text: "KETI RESTAURANT", web_app: { url: web_link } }]],
     },

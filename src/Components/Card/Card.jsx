@@ -18,8 +18,6 @@ function Card({ food, onAdd, onRemove }) {
 
   return (
     <div className="card" key={id}>
-      {" "}
-      {/* 'id' used as key */}
       <span
         className={`${count !== 0 ? "card__badge" : "card__badge--hidden"}`}
       >
