@@ -5,9 +5,9 @@ const bot = new Telegraf(TOKEN);
 const web_link = "https://feedback-website.onrender.com/";
 
 bot.start((ctx) =>
-  ctx.reply("Welcome to KETI Restaurant:", {
+  ctx.reply("Welcome to KOTI Restaurant:", {
     reply_markup: {
-      keyboard: [[{ text: "KETI RESTAURANT", web_app: { url: web_link } }]],
+      keyboard: [[{ text: "KOTI RESTAURANT", web_app: { url: web_link } }]],
     },
   })
 );
